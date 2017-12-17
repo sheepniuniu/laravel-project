@@ -84,3 +84,8 @@ Route::group([],function()
 	});
 });
 
+Route::controller('test','TestController');
+// Route::get('test/index','TestController@index');
+
+
+
